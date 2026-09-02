@@ -237,13 +237,15 @@ export const projects: Project[] = [
   },
   {
     name: 'PLC Telemetry Dashboard',
-    status: 'CONCEPT',
+    status: 'LIVE',
     description:
       'A real-time dashboard streaming machine telemetry from PLCs over MQTT/OPC-UA into a FastAPI backend and a React front end.',
-    stack: ['Python', 'FastAPI', 'MQTT', 'OPC-UA', 'React', 'WebSockets'],
+    stack: ['Python', 'FastAPI', 'MQTT', 'OPC-UA', 'React', 'WebSockets', 'Docker'],
+    repoUrl: 'https://github.com/Calijace2023/plc-telemetry-dashboard',
     details: [
       'Mirrors production telemetry work from Denso Ten — pulling live sensor data off the factory floor.',
-      'FastAPI + WebSockets push live readings to a React dashboard for machine status and alerts.',
+      'A simulator publishes synthetic PLC readings over MQTT; FastAPI subscribes, then fans them out to the React dashboard over a WebSocket.',
+      'Zero-dependency local dev via an embedded MQTT broker, plus a Docker Compose path with a real Mosquitto broker for a production-like setup.',
       'Designed as the software layer under a predictive-maintenance model.',
     ],
   },
