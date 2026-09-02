@@ -277,12 +277,14 @@ export const projects: Project[] = [
   },
   {
     name: 'Automated Engineering Reporting Bot',
-    status: 'CONCEPT',
+    status: 'LIVE',
     description:
-      'A Python automation tool that turns raw CSV/Excel production data into formatted engineering reports.',
-    stack: ['Python', 'Pandas', 'Automation'],
+      'A Python CLI tool that turns raw CSV/Excel production data into formatted SPC-style quality reports.',
+    stack: ['Python', 'Pandas', 'Jinja2', 'Automation'],
+    repoUrl: 'https://github.com/Calijace2023/engineering-reporting-bot',
     details: [
-      'Parses shift/production data and auto-generates SPC-style summary reports.',
+      'Computes Cp/Cpk process capability, defect rate, yield, and downtime per machine from a shift/production log.',
+      'Renders a self-contained, print-friendly HTML report — no server needed to view it.',
       'Replaces the manual reporting process referenced across multiple manufacturing roles.',
     ],
   },
