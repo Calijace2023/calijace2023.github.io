@@ -255,6 +255,19 @@ export const projects: Project[] = [
 
 export const miniProjects: Project[] = [
   {
+    name: 'SPC Control Chart Generator',
+    status: 'LIVE',
+    description:
+      'A Python CLI tool that turns subgrouped process measurements into X-bar/R control-chart reports with automatic violation detection.',
+    stack: ['Python', 'Pandas', 'Jinja2', 'SPC'],
+    repoUrl: 'https://github.com/Calijace2023/spc-control-chart-generator',
+    details: [
+      'Computes control limits from Montgomery\'s standard SPC constants and renders hand-rolled inline-SVG X-bar and R charts.',
+      'Flags Western Electric run-rule violations automatically — a single point beyond 3-sigma, runs beyond 1/2-sigma, and 8 consecutive points on one side of the centerline.',
+      'Pairs with the Reporting Bot below: that one summarizes capability after the fact, this one catches a process shift as it happens.',
+    ],
+  },
+  {
     name: 'Automated Engineering Reporting Bot',
     status: 'LIVE',
     description:
