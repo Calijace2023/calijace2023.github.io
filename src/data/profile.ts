@@ -199,30 +199,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: 'Python Projects — OOP Principles',
-    status: 'LIVE',
-    description:
-      'A set of Python exercises demonstrating core object-oriented programming principles.',
-    stack: ['Python', 'OOP'],
-    repoUrl: 'https://github.com/Calijace2023/Python-Projects',
-    details: [
-      'Covers encapsulation, inheritance, polymorphism, and abstraction with worked examples.',
-      'Written as a reference set for clean, class-based Python design.',
-    ],
-  },
-  {
-    name: 'Python Projects — Vendo Machine',
-    status: 'LIVE',
-    description:
-      'A Python simulation of a vending machine, modeling real-world state and transaction logic.',
-    stack: ['Python', 'OOP', 'State Machines'],
-    repoUrl: 'https://github.com/Calijace2023/Python-Projects',
-    details: [
-      'Models inventory, payment, and change-dispensing logic as a class-based state machine.',
-      'Applies OOP fundamentals to a practical, testable scenario.',
-    ],
-  },
-  {
     name: 'PLC Telemetry Dashboard',
     status: 'LIVE',
     description:
@@ -275,6 +251,9 @@ export const projects: Project[] = [
       'Directly implements the predictive-maintenance backend work referenced from Denso Ten — the piece of that experience the rest of this portfolio only described until now.',
     ],
   },
+]
+
+export const miniProjects: Project[] = [
   {
     name: 'Automated Engineering Reporting Bot',
     status: 'LIVE',
@@ -286,6 +265,30 @@ export const projects: Project[] = [
       'Computes Cp/Cpk process capability, defect rate, yield, and downtime per machine from a shift/production log.',
       'Renders a self-contained, print-friendly HTML report — no server needed to view it.',
       'Replaces the manual reporting process referenced across multiple manufacturing roles.',
+    ],
+  },
+  {
+    name: 'Python Projects — OOP Principles',
+    status: 'LIVE',
+    description:
+      'A set of Python exercises demonstrating core object-oriented programming principles.',
+    stack: ['Python', 'OOP'],
+    repoUrl: 'https://github.com/Calijace2023/Python-Projects',
+    details: [
+      'Covers encapsulation, inheritance, polymorphism, and abstraction with worked examples.',
+      'Written as a reference set for clean, class-based Python design.',
+    ],
+  },
+  {
+    name: 'Python Projects — Vendo Machine',
+    status: 'LIVE',
+    description:
+      'A Python simulation of a vending machine, modeling real-world state and transaction logic.',
+    stack: ['Python', 'OOP', 'State Machines'],
+    repoUrl: 'https://github.com/Calijace2023/Python-Projects',
+    details: [
+      'Models inventory, payment, and change-dispensing logic as a class-based state machine.',
+      'Applies OOP fundamentals to a practical, testable scenario.',
     ],
   },
 ]
