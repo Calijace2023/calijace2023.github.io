@@ -255,6 +255,19 @@ export const projects: Project[] = [
 
 export const miniProjects: Project[] = [
   {
+    name: 'Industrial Protocol CLI',
+    status: 'LIVE',
+    description:
+      'A CLI speaking Modbus TCP and OPC-UA directly, with a simulated PLC for each protocol — no hardware required to run it.',
+    stack: ['Python', 'pymodbus', 'asyncua', 'Rich'],
+    repoUrl: 'https://github.com/Calijace2023/industrial-protocol-cli',
+    details: [
+      'The same three PLC signals — temperature, pressure, motor RPM — exposed over both Modbus TCP and OPC-UA, for a direct side-by-side protocol comparison.',
+      'Live-monitor command renders a real-time terminal table; write-coil support starts and stops the simulated motor over the wire.',
+      'Most software portfolios never touch these protocols — this is the actual protocol layer 14 years of factory-floor work sits on top of.',
+    ],
+  },
+  {
     name: 'SPC Control Chart Generator',
     status: 'LIVE',
     description:
