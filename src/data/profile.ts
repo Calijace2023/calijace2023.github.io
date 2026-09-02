@@ -199,19 +199,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: 'Portfolio Site',
-    status: 'LIVE',
-    description:
-      'This site: a React/TypeScript portfolio with an industrial control-panel aesthetic, auto-deployed to GitHub Pages.',
-    stack: ['React', 'TypeScript', 'Material UI', 'Vite', 'GitHub Actions'],
-    repoUrl: 'https://github.com/Calijace2023/calijace2023.github.io',
-    details: [
-      'Every section — summary, skills, experience, projects — pulls from one typed data file, so updating the resume never means touching a component.',
-      'GitHub Actions builds and deploys automatically on every push to main, straight to the GitHub Pages root domain.',
-      'Design language echoes HMI status panels — signal-orange and cyan accents, monospace data labels — reflecting the automation-to-software throughline the rest of the site tells.',
-    ],
-  },
-  {
     name: 'Python Projects — OOP Principles',
     status: 'LIVE',
     description:
