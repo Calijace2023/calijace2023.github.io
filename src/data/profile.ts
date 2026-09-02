@@ -204,7 +204,7 @@ export const projects: Project[] = [
     description:
       'A containerized full-stack application pairing a Python backend with a React frontend, orchestrated with Docker Compose.',
     stack: ['Python', 'React', 'Docker', 'Docker Compose'],
-    repoUrl: 'https://github.com/Calijace2023/calijace2023.github.io-portfolio-site',
+    repoUrl: 'https://github.com/Calijace2023/calijace2023.github.io',
     details: [
       'Separated backend and frontend services with independent environments (.env-based config).',
       'Docker Compose orchestration for consistent local development and deployment.',

@@ -32,15 +32,10 @@ automatically on every push to `main`.
 2. In the repo, go to **Settings → Pages → Source** and select **GitHub Actions**.
 3. Push to `main` — the site deploys automatically to `https://<username>.github.io/<repo-name>/`.
 
-This repo is `calijace2023.github.io-portfolio-site`, so it deploys to
-`https://calijace2023.github.io/calijace2023.github.io-portfolio-site/` — that's already set as
-the `base` path in `vite.config.ts`. If you ever rename the repo, update `base` to match:
-
-```ts
-base: '/your-repo-name/',
-```
-
-If you deploy to a root user site (`username.github.io` repo itself), set `base: '/'`.
+This repo is named `calijace2023.github.io` — GitHub's special root user-site name — so it
+deploys straight to `https://calijace2023.github.io/` with no sub-path, and `base` in
+`vite.config.ts` is already set to `'/'` to match. If this ever moves to a regular project repo
+instead, change `base` to `/your-repo-name/`.
 
 ## Editing content
 

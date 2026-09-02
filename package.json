@@ -3,10 +3,10 @@
   "description": "Personal portfolio for Calvin Estillomo Cabungcal — Python developer and full-stack web developer.",
   "author": "Calvin Estillomo Cabungcal",
   "license": "MIT",
-  "homepage": "https://calijace2023.github.io/calijace2023.github.io-portfolio-site/",
+  "homepage": "https://calijace2023.github.io/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Calijace2023/calijace2023.github.io-portfolio-site.git"
+    "url": "https://github.com/Calijace2023/calijace2023.github.io.git"
   },
   "private": true,
   "version": "1.0.0",
