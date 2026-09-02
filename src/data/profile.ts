@@ -276,6 +276,19 @@ export const projects: Project[] = [
     ],
   },
   {
+    name: 'Predictive Maintenance Pipeline',
+    status: 'LIVE',
+    description:
+      'A scikit-learn model estimating remaining useful life from live sensor telemetry, served through FastAPI to a real-time React dashboard.',
+    stack: ['Python', 'scikit-learn', 'FastAPI', 'React', 'WebSockets'],
+    repoUrl: 'https://github.com/Calijace2023/predictive-maintenance-pipeline',
+    details: [
+      'A RandomForestRegressor predicts remaining useful life (RUL) from sliding-window features over vibration, temperature, and pressure telemetry.',
+      'A live simulation runs a small machine fleet through synthetic run-to-failure cycles, broadcasting updated predictions over a WebSocket as each machine ages toward failure.',
+      'Directly implements the predictive-maintenance backend work referenced from Denso Ten — the piece of that experience the rest of this portfolio only described until now.',
+    ],
+  },
+  {
     name: 'Automated Engineering Reporting Bot',
     status: 'CONCEPT',
     description:
