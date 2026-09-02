@@ -264,12 +264,14 @@ export const projects: Project[] = [
   },
   {
     name: 'Vision-Based Quality Inspector',
-    status: 'CONCEPT',
+    status: 'LIVE',
     description:
       'An OpenCV/PyTorch defect-detection prototype for automated assembly-line quality control.',
-    stack: ['Python', 'OpenCV', 'PyTorch', 'Computer Vision'],
+    stack: ['Python', 'OpenCV', 'PyTorch', 'FastAPI', 'React', 'Computer Vision'],
+    repoUrl: 'https://github.com/Calijace2023/vision-quality-inspector',
     details: [
-      'Trains a lightweight defect classifier on labeled part images.',
+      'A small PyTorch CNN trained on OpenCV-generated synthetic part images, classifying OK vs. defective (scratch, pit, crack, discoloration).',
+      'FastAPI serves predictions plus a classical Canny edge-map diagnostic; a React UI lets a visitor generate a sample or upload their own image.',
       'Flags out-of-spec parts in real time, extending the inspection systems built at Denso Ten.',
     ],
   },
