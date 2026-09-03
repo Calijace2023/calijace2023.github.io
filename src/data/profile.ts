@@ -255,6 +255,19 @@ export const projects: Project[] = [
 
 export const miniProjects: Project[] = [
   {
+    name: 'Weather API',
+    status: 'LIVE',
+    description:
+      'A FastAPI service wrapping Open-Meteo into a clean weather endpoint, with TTL caching in front of geocoding and forecast calls.',
+    stack: ['Python', 'FastAPI', 'httpx', 'Pydantic'],
+    repoUrl: 'https://github.com/Calijace2023/weather-api',
+    details: [
+      'Two independent caches with different lifetimes — 24 hours for geocoded coordinates, 10 minutes for forecast data — instead of treating both the same.',
+      'The one mini project here talking to a real external API rather than synthetic data; the engineering problem is caching and resilience around a third-party dependency.',
+      'Test suite mocks the upstream API with respx against real captured response shapes, so CI never depends on a third party being reachable.',
+    ],
+  },
+  {
     name: 'Industrial Protocol CLI',
     status: 'LIVE',
     description:
