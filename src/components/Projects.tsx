@@ -11,9 +11,8 @@ export default function Projects() {
         <Typography variant="h3" sx={{ fontSize: '1.9rem', mb: 1 }}>
           Selected work
         </Typography>
-        <Typography sx={{ color: 'text.secondary', mb: 5, maxWidth: 560 }}>
-          Live repositories are on GitHub now. Concept entries are next builds, scoped from real problems I've
-          solved on factory floors.
+        <Typography sx={{ color: 'text.secondary', mb: 5, whiteSpace: { md: 'nowrap' } }}>
+          Live repositories are on GitHub now. Concept entries are next builds, scoped from real problems I've solved on factory floors.
         </Typography>
 
         <Box>
