@@ -13,7 +13,7 @@ export default function Skills() {
         <Typography variant="h3" sx={{ fontSize: '1.9rem', mb: 1 }}>
           Toolkit
         </Typography>
-        <Typography sx={{ color: 'text.secondary', mb: 6, maxWidth: 560 }}>
+        <Typography sx={{ color: 'text.secondary', mb: 6, whiteSpace: { md: 'nowrap' } }}>
           The stack I build with day to day, grouped by where it fits — from browser to backend to the factory floor.
         </Typography>
 

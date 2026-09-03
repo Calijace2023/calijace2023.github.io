@@ -10,9 +10,8 @@ export default function MiniProjects() {
         <Typography variant="h3" sx={{ fontSize: '1.9rem', mb: 1 }}>
           Mini projects
         </Typography>
-        <Typography sx={{ color: 'text.secondary', mb: 5, maxWidth: 560 }}>
-          Smaller, focused builds — a day or two each, proving one thing cleanly rather than
-          shipping a full system.
+        <Typography sx={{ color: 'text.secondary', mb: 5, whiteSpace: { md: 'nowrap' } }}>
+          Smaller, focused builds — a day or two each, proving one thing cleanly rather than shipping a full system.
         </Typography>
 
         <Box
